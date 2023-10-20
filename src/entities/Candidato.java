@@ -15,8 +15,16 @@ public class Candidato {
 		this.partido = partido;
 	}
 
+	public void setNome(String name) {
+		this.name = name;
+	}
+
 	public String getNome() {
 		return name;
+	}
+
+	public void setPartido(int partido) {
+		this.partido = partido;
 	}
 
 	public int getPartido() {

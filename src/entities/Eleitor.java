@@ -13,6 +13,10 @@ public class Eleitor {
 		this.name = name;
 	}
 	
+	public void setNome(String name) {
+		this.name = name;
+	}
+	
 	public String getNome() {
 		return name;
 	}
